@@ -1,5 +1,5 @@
 import requests
-import haversine
+from meteors import haversine
 
 my_location = [49.45, 11.083333]
 meteor_resp = requests.get('https://data.nasa.gov/resource/gh4g-9sfh.json')
